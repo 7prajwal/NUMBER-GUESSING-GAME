@@ -1,13 +1,10 @@
 #include <iostream>
-// #include<ctime>
 using namespace std;
 
-int main()
-{
-    //  srand(time(NULL));
-     
+int main(){
+    
      int rand_num = rand() % (100-1+1) +1;
-    //  cout<<rand_num;
+     
      
      int guess_num ;
      int attempts =0;
